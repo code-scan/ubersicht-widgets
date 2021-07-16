@@ -76,7 +76,7 @@ update: (output, domEl) ->
   militaryTime = false; #Military Time = 24 hour time
 
   #Time Segmends for the day
-  segments = ["早晨", "中文", "晚上", "深夜"]
+  segments = ["早晨", "下午", "晚上", "深夜"]
 
   #Grab the name of the current user.
   #If you would like to edit this, replace "output.split(' ')" with your name
